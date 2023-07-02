@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    background: url(/images/banner-portfolio.png);
+    background: url(../images/banner-portfolio.png);
     max-height: 685px;
 
 }
