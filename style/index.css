@@ -1,0 +1,518 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1400px;
+    min-width: 350px;
+    margin: auto;
+}
+
+header{
+    background: url(/images/banner-portfolio.png);
+    max-height: 685px;
+
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    margin-top: unset;
+    padding-bottom: 80px;
+}
+
+
+#logo{
+    height: 145px;
+}
+
+#logo-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+#logo-nav ul{
+    list-style-type: none;
+    display:flex;
+    font-size: 22px;
+    padding-right: 35px;
+}
+
+#logo-nav li a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+
+}
+
+#logo-nav li :hover{
+    font-weight: 700;
+}
+
+
+
+.profile-pic{
+    display: flex;
+    justify-content: center;
+
+}
+
+.profile-pic img{
+    height: 350px;
+    padding-top: 30px;
+}
+
+h1{
+    color: white;
+    font-size: 48px;
+}
+
+.segura{
+    color: #84AE86;
+}
+
+.about h2{
+    color: #84AE86;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+}
+
+.about-img img{
+    width: 85%;
+}
+
+.about-me-title h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin: unset;
+
+}
+
+.about-me-right-side{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    padding:10px;
+    justify-content: center;
+    padding-bottom: unset;
+    
+}
+
+.about-me-text{
+    margin-bottom: 10px;
+}
+
+.about-me-text p{
+    margin-top: unset;
+}
+
+.lien-cv a{
+    background-color: #84AE86;
+    padding: 15px 25px ;
+    border-radius: 60px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.my-services{
+    background-color: #84AE86;
+    margin-top: 100px;
+    padding: 0px 35px 55px 35px;
+}
+
+.m-s-title{
+     color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards-my-services{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-services{
+    background-color: white;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.card-serv-icon{
+    display: flex;
+    justify-content: center;
+ 
+}
+.card-serv-icon img{
+    width: 25%;
+}
+
+.card-serv-title{
+    display: flex;
+    justify-content: center;
+}
+
+.card-serv-title h4{
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: unset;
+}
+
+.card-serv-description{
+    display: flex;
+    justify-content: center;
+}
+.card-serv-description ul{
+    padding-left: 30px;
+}
+
+.card-serv-description li{
+     padding-top: 15px;
+     padding-bottom: 15px;
+}
+
+.my-realisations{
+    margin-top: 25px;
+}
+
+.realisations-title{
+    color: #84AE86;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.realisations-title h3{
+    margin-bottom: unset;
+}
+
+.cards-my-realisations{
+    margin: 0px 20px 0px 20px;
+    
+}
+
+.card-realisation{
+    display: flex;
+    padding: 20px;
+    background-color: #E0FFE1;
+    border-radius: 20px;
+    margin: 40px 20px 40px 20px;
+   
+}
+
+
+
+
+.card-rea-img{
+    max-width: 630px;
+}
+
+.card-rea-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.realisations-left-side{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    padding: 0px 10px;
+    justify-content: center;
+    padding-bottom: unset;
+    margin-left: 30px;
+    align-items: center;
+    
+}
+
+
+
+.card-rea-title h4{
+    color: #3C603D;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: unset;
+    margin-top: 10px;
+    
+}
+
+.card-rea-text{
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.lien-site a {
+background-color: #84AE86;
+    padding: 15px 25px ;
+    border-radius: 60px;
+    text-decoration: none;
+    color: white;
+}
+/* seconde card texte et image inversés*/
+
+#card-rea-reverse{
+    flex-direction: row-reverse;
+}
+
+
+
+#card-rea-reverse .rea-reverse-description{
+    text-align: right;
+    padding-right: 50px;
+  
+}
+
+
+
+footer{
+    background-color: #3C603D;
+    display: flex;
+    padding: 20px;
+}
+
+.footer-logo img{
+    max-width: 270px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.contact-title h4{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contact img{ 
+    max-width: 58px;
+    margin: 5px;
+}
+
+.e-mail {
+    margin-bottom: 20px;
+}
+
+.e-mail p {
+    margin: 20px 0px 5px 5px;
+}
+
+.e-mail a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+}
+
+/****************** BREAKPOINT LARGE*******************/
+@media screen and (max-width: 1200px){
+   
+   
+.card-rea-img{
+   width:50%
+}
+
+.card-rea-title h4{
+    font-size: 25px;
+}
+
+.card-rea-text{
+    font-size: 16px;
+}
+
+.lien-site a {
+    padding: 8px 20px;
+    font-size: 15px;
+}
+
+
+}
+
+
+
+
+/****************** BREAKPOINT MEDIUM*******************/
+
+@media screen and (max-width: 992px){
+
+#logo{
+    height: 105px;
+}    
+
+.about-me-title h3{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+.about-me-text p{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about-me-text{
+    margin-bottom: 20px;
+}
+
+
+.about-img{
+    max-width: 350px;
+}
+
+
+.about-img img{
+    width: 100%;
+}
+
+
+.lien-cv a{
+    font-size: 12px;
+}
+
+.cards-my-services{
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-services{
+    width:70%;
+    margin-top:20px;
+}
+
+.about-me-right-side{
+    align-content: center;
+}
+
+.card-realisation, #card-rea-reverse{
+    flex-direction: column;
+    align-items:center;
+    max-width: 750px;
+}
+
+.card-rea-img{
+    width: 100%;
+}
+
+.realisations-left-side{
+    width: 90%;
+}
+
+
+.cards-my-realisations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card-rea-reverse .rea-reverse-description{
+    text-align: unset;
+    padding-right: unset;
+}
+
+.card-serv-description{
+    font-size: 20px;
+}
+
+.lien-site{
+    margin-top: 18px;
+    margin-bottom: 18px;
+
+}
+
+.lien-site a {
+    padding: 12px 25px;
+    font-size: 17px;
+}
+
+footer{
+    justify-content: space-around;
+}
+
+}
+
+/****************** BREAKPOINT SMALL*******************/
+@media screen and (max-width: 768px){
+
+
+
+#logo-nav{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#logo-nav ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#logo-nav li{
+    padding: 10px;
+    border: white 1px solid;
+    border-radius: 25px;
+    margin: 5px;
+    font-size: 18px;
+
+}
+
+nav{
+    margin: unset;
+}
+
+.profile-pic img{
+    height: 240px;
+    padding: unset;
+}
+
+.about-me{
+   flex-wrap: wrap;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.about-me-right-side {
+    width: 100%;
+}
+
+.m-s-title{
+    text-align: center;
+}
+
+.card-services{
+    width: 90%;
+}
+
+.realisations-left-side{
+    margin: unset;
+}
+
+footer { 
+    flex-direction: column-reverse;
+    align-items: center;
+} 
+
+
+.contact{
+    align-items: center;
+    margin: unset;
+}
+
+}
