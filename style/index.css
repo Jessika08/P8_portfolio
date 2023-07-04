@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    background: url(../images/banner-portfolio.png);
+    background: url ("../images/banner-portfolio.png");
     max-height: 685px;
 
 }
@@ -275,6 +275,13 @@ background-color: #84AE86;
   
 }
 
+#code-button{
+    margin-left : 15px;
+}
+
+#site-button{
+    margin-left: 10px
+}
 
 
 footer{
